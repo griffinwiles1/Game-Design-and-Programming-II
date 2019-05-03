@@ -11,6 +11,7 @@ public class Wall extends Actor {
     public Wall(int x, int y) {
         super(x, y);
 
+        //Set the image of the Wall
         URL loc = this.getClass().getResource("/res/wall.png");
         ImageIcon iia = new ImageIcon(loc);
         image = iia.getImage();

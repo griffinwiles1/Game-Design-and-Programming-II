@@ -9,6 +9,7 @@ public class Area extends Actor {
     public Area(int x, int y) {
         super(x, y);
 
+        //Set the image of the Goal Area
         URL loc = this.getClass().getResource("/res/area.png");
         ImageIcon iia = new ImageIcon(loc);
         Image image = iia.getImage();

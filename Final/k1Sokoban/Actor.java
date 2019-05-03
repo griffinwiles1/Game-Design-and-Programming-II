@@ -1,9 +1,11 @@
+
 package k1Sokoban;
 
 import java.awt.Image;
 
 public class Actor {
 
+	//Amount of pixels each subclass of Actor takes up
     private final int SPACE = 32;
 
     private int x;

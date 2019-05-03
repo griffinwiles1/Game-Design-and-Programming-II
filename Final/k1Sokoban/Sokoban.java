@@ -1,7 +1,6 @@
 package k1Sokoban;
 
 import java.awt.Color;
-
 import javax.swing.JFrame;
 
 @SuppressWarnings("serial")
